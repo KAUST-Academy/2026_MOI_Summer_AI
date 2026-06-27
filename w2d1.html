@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Week 2 Day 1 — Recurrent Neural Networks</title>
+
+  <!-- CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/img/kaust-academy-logo.png" alt="KAUST Academy">
+        </a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="" href="index.html">Home</a></li>
+          <li class="dropdown"><a class="" href="index.html#week1"><span>Week 1</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a class="" href="w1d1.html">Day 1: Introduction to Neural Networks</a></li>
+              <li><a class="" href="w1d2.html">Day 2: Deep Learning</a></li>
+              <li><a class="" href="w1d3.html">Day 3: Convolutional Neural Networks</a></li>
+              <li><a class="" href="w1d4.html">Day 4: Object Detection</a></li>
+              <li><a class="" href="w1d5.html">Day 5: Image Segmentation</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="active" href="index.html#week2"><span>Week 2</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a class="active" href="w2d1.html">Day 1: Recurrent Neural Networks</a></li>
+              <li><a class="" href="w2d2.html">Day 2: Transformers</a></li>
+              <li><a class="" href="w2d3.html">Day 3: Vision Transformers</a></li>
+              <li><a class="" href="w2d4.html">Day 4: Self-Supervised Learning</a></li>
+              <li><a class="" href="w2d5.html">Day 5: Contrastive Learning</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="" href="index.html#week3"><span>Week 3</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a class="" href="w3d1.html">Day 1: RL Foundations &amp; Value-Based Methods</a></li>
+              <li><a class="" href="w3d2.html">Day 2: Policy Gradient Methods</a></li>
+              <li><a class="" href="w3d3.html">Day 3: Continuous Control</a></li>
+              <li><a class="" href="w3d4.html">Day 4: Advanced RL Topics</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs animate-up">
+      <div class="container">
+        <span class="crumb-tag">Week 2 &middot; Day 1 &middot; 5 July</span>
+        <h2>Recurrent Neural Networks</h2>
+        <p>Sequence modeling with RNNs, LSTMs, and GRUs.</p>
+      </div>
+    </div>
+
+    <!-- Content Table -->
+    <div class="container mb-5 animate-up delay-100">
+      <div class="table-container">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th scope="col" style="width: 32%">Topic</th>
+              <th scope="col">Description &amp; Objectives</th>
+              <th scope="col" style="width: 18%; text-align: center;">Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Recurrent Neural Networks</strong></td>
+              <td>RNNs, LSTMs, GRUs, and sequence modeling</td>
+              <td class="text-center"><a href="./Week2/Day1_05-07_RNNs/Lecture/06_Recurrent_Neural_Networks.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
+            </tr>
+            <tr>
+              <td><strong>Lab: RNN, LSTM &amp; GRU</strong></td>
+              <td>Compare core recurrent architectures</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_MOI_Summer_AI/blob/main/Week2/Day1_05-07_RNNs/Labs/RNN_LSTM_GRU.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+            <tr>
+              <td><strong>Lab: Many-to-One RNN</strong></td>
+              <td>Sequence classification with a many-to-one RNN</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_MOI_Summer_AI/blob/main/Week2/Day1_05-07_RNNs/Labs/RNN_Many_to_One.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+            <tr>
+              <td><strong>Lab: One-to-Many RNN</strong></td>
+              <td>Sequence generation with a one-to-many RNN</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_MOI_Summer_AI/blob/main/Week2/Day1_05-07_RNNs/Labs/RNN_One_to_Many.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+            <tr>
+              <td><strong>Lab: RNN Image Captioning</strong></td>
+              <td>Generate image captions with an RNN</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_MOI_Summer_AI/blob/main/Week2/Day1_05-07_RNNs/Labs/RNN_Image_Captioning.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center w-100">
+        <div class="copyright">
+          &copy; Copyright <strong><span>KAUST Academy</span></strong>. All Rights Reserved
+        </div>
+        <div class="license" style="font-size: 13px; margin-top: 8px; color: #555;">
+          Licensed under <a href="https://github.com/KAUST-Academy/2026_MOI_Summer_AI?tab=GPL-3.0-1-ov-file#readme"
+            target="_blank" rel="noopener">GPL-3.0</a>.
+          Recording and uploading lectures online is not permitted.
+        </div>
+        <div class="credits" style="font-size: 14px; margin-top: 5px; color: #555;">
+          Website created by <strong>Ali Habibullah</strong>.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
